@@ -63,9 +63,9 @@ a {
 a:hover {
   color: white;
 }
-p.request:hover{
-	color: white;
-	cursor: pointer;
+p.request:hover {
+  color: white;
+  cursor: pointer;
 }
 
 header {
@@ -85,7 +85,7 @@ header {
 }
 #logotip::before {
   content: '';
-  background: url(/maket/image/logo/logo.png);
+  background: url(../image/logo/logo.png);
   display: inline-block;
   width: 25px;
   height: 25px;
@@ -99,8 +99,8 @@ header {
 
 #section_0 {
   background-color: #f9eae1;
-  background-image: url(/maket/image/section_0/back2x.webp),
-    url(/maket/image/section_0/back2x.jpg);
+  background-image: url(../image/section_0/back2x.webp),
+    url(../image/section_0/back2x.jpg);
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -199,52 +199,54 @@ button.request {
 .sub2-item-a,
 .sub2-item-b {
   position: relative;
-	overflow: hidden;
+  overflow: hidden;
 }
 
-.sub1-item-a:hover::after,.sub1-item-b:hover::after,.sub2-item-a:hover::after,.sub2-item-b:hover::after {
-		height: 150%;
-		width: 100%;
-		content: attr(title); 
-    position: absolute;
-    left: 0; right: 0;  bottom: 0; 
-    z-index: 1; 
-		background: rgba(100, 72, 69, 0.8);
-	font-family: Montserrat;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 30px;
-	line-height: 37px;
-	text-align: center;
-	color: #ffffff;
-	margin-top: -2em;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	
-
+.sub1-item-a:hover::after,
+.sub1-item-b:hover::after,
+.sub2-item-a:hover::after,
+.sub2-item-b:hover::after {
+  height: 150%;
+  width: 100%;
+  content: attr(title);
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  background: rgba(100, 72, 69, 0.8);
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: -2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.sub1-item-a:hover::before,.sub1-item-b:hover::before,.sub2-item-a:hover::before,.sub2-item-b:hover::before{
-		height: 100%;
-		width: 80%;
-		content: attr(data-text); 
-    position: absolute;
-    z-index: 2;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		font-family: Montserrat;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 18px;
-		line-height: 30px;			
-		color: #FFFFFF;
-		padding: 1.5em 3em 2em 3em;
-
+.sub1-item-a:hover::before,
+.sub1-item-b:hover::before,
+.sub2-item-a:hover::before,
+.sub2-item-b:hover::before {
+  height: 100%;
+  width: 80%;
+  content: attr(data-text);
+  position: absolute;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  color: #ffffff;
+  padding: 1.5em 3em 2em 3em;
 }
-
-
-
 
 #next-picture {
   display: inline-block;
@@ -256,7 +258,7 @@ button.request {
 }
 #next-picture::after {
   content: '';
-  background: url(/maket/image/section_2/Arrow.svg);
+  background: url(../image/section_2/Arrow.svg);
   display: inline-block;
   margin-left: 0.3em;
   width: 61.2px;
@@ -440,13 +442,15 @@ input.inputs {
   font-weight: normal;
   font-size: 18px;
   line-height: 30px;
-	padding-left: 0.2em;
+  padding-left: 0.2em;
 }
 ::placeholder {
   color: #f6ede9;
-	text-overflow:ellipsis;
+  text-overflow: ellipsis;
 }
-:focus::placeholder {color: transparent}
+:focus::placeholder {
+  color: transparent;
+}
 
 h3.request {
   font-family: Montserrat;
@@ -458,7 +462,7 @@ h3.request {
 #sec-5-map {
   height: 100%;
   border: 0;
-	margin-left: 1.5em;
+  margin-left: 1.5em;
 }
 
 .contain-footer {
