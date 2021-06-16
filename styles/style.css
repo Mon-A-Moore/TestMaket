@@ -254,6 +254,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 .case-conteiner__content-sub1item-a:hover::before,
 .case-conteiner__content-sub1item-b:hover::before,
